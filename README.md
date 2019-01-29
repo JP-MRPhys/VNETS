@@ -1,6 +1,3 @@
-# NeuralNetworks
-iMRI algos
-
 ### Background
 
 MRI/CT/US are very powerful scanners employed to investigate and diagnose a range of diseases. MRI scans in particular are acquired by employing specific parameters in a "sequence" to encode in data in arbitrary space known as "k-space" and then by applying mathematical transforms (mainly fourier, recently wavelets, and dictornary) to obtain images of different constrast (T1w,T2w,T2*, DTI, etc). 
