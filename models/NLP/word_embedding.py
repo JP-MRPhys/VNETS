@@ -1,3 +1,5 @@
+#using pretrained glove (stanford: https://nlp.stanford.edu/projects/glove/)
+#muse word embeddings (facebook: https://github.com/facebookresearch/MUSE)
 import io
 import numpy as np
 

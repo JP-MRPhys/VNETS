@@ -1,3 +1,6 @@
+#sentiment analysis using multilayer RNN (LSTM)
+
+
 import tensorflow as tf
 import numpy as np
 from models.NLP.utilities.StockTwits import get_twets_data, get_training_batch_twets
