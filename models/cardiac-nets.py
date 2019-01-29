@@ -132,17 +132,13 @@ class cardiacnets:
          #summary and writer for tensorboard visulization
 
          #self.label1 = tf.squeeze(self.segmented_output[:,:,:,0:3])
-
-
-
-
          #tf.summary.image("Label 1/2/3", self.label1)
 
          #tf.summary.image("Segmentation", self.segmented_image)
          tf.summary.image("Generator fake output", self.Gz)
          tf.summary.image("Input image", self.input_image)
 
-        tf.summary.histogram("Descriminator logits (Real)", self.Dx_logits)
+         tf.summary.histogram("Descriminator logits (Real)", self.Dx_logits)
          tf.summary.histogram("Descriminator logits (Fake)", self.Dz_logits)
 
          tf.summary.scalar("Discriminator loss real", self.d_loss_real)
