@@ -4,6 +4,8 @@ from tensorflow.contrib.seq2seq import *
 
 from models.NLP.utilities.translation_data import load_vec
 
+#seq2seq implementation 
+
 
 # time major: where encoder length comes first before the batch size, this will influence model specific e.g. attention see below for more details
 
