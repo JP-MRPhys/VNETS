@@ -1,3 +1,5 @@
+# implementation of show tell and attend
+
 import tensorflow as tf
 from models.NLP.utilities.ms_coco_dataset import *
 from models.NLP import VGG16 as vgg16
