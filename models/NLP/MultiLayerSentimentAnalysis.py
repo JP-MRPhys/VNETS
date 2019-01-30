@@ -1,4 +1,4 @@
-#sentiment analysis using multilayer RNN (LSTM)
+#sentiment analysis using multilayer RNN (LSTM) twitter
 
 
 import tensorflow as tf
