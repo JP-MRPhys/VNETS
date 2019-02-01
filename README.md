@@ -1,6 +1,4 @@
-##Towards intelligent imaging: Role of applied AI
-
-
+## Towards intelligent imaging: Role of applied AI
 
 ### Background
 
