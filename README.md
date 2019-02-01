@@ -21,7 +21,7 @@ The goal of this post is to develop broad range of necessary AI-technologies to 
 This git-hub repository highlight key algorithms and provides core implementations. These are briefly summaried below. 
 
  #### Automatic (unsupervised) object (organ) detection/segmentation in medical images (via combination DeepLab-3, U-NET, GAN)
- #### Using segmentation obtain "image" embeddings (WIP: need more datasets), these would allow development highly efficient acqusition 
+ #### Using segmentation obtain "image" embeddings (WIP: need more datasets), these would allow development highly of efficient acqusition 
  #### Employing embeddings and policy-based-learning (DDPG) for synthesis of optimal image acquisition of varying contrast (WIP-see RI repo for a simple implementation)
  #### Attention modelling e.g. Show attend and tell, model: which can generate captions for images, this would be the final layer for automatic inpretation of data, feeding back to a decision model (DDPG: Actor-Critic?), to learn new acqusition parameters based on the current observation
 
