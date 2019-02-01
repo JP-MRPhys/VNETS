@@ -8,7 +8,7 @@ To reconstruct a "clean" image i.e. without artifacts, k-space encoding rules mu
 
 Neural Networks/Deep Learning also been applied classification of the medical images mainly as computer vision "problem".   
 
-The goal of this post is to develop broad range of necessary AI-technologies to develop new data acqusition and reconstructions which not only allow efficient/fast data acquisitions but also to synthesis novel contrasts images to allow more "effective diagnosis" followed with automatic image intereption in an end-to-end setting, a marked differently and radical approach.  This would require moving away from the traditional approaches and representationn by adopting a more generic embedded-space representation, a following road map outlines the development statergy. 
+The goal of this post is to develop broad range of necessary AI-technologies to develop new data acqusition and reconstructions which not only allow efficient/fast data acquisitions but also synthesis of novel contrasts to allow more "effective diagnosis" followed with automatic image intereption in an end-to-end setting, a marked differently and radical approach.  This would require moving away from the traditional approaches and representationn by adopting a more generic embedded-space representation, a following road map outlines the development statergy. 
 
  ## Road map
 
