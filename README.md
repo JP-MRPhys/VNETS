@@ -4,9 +4,9 @@
 
 MRI/CT/US are very powerful scanners employed to investigate and diagnose a range of diseases. MRI scans in particular are acquired by employing specific parameters in a "sequence" to encode in data in arbitrary space known as "k-space" and then by applying mathematical transforms (mainly fourier, recently wavelets, and dictornary) to obtain images of different constrast (T1w,T2w,T2*, DTI, etc). 
 
-To reconstruct a "clean" image i.e. without artifacts, k-space encoding rules must be followed, which leads to slow "encoding/acqusitions" and longer scans duration. As a result a huge amount of effort has been devoted to increase efficiency data collection over the last three decades. Recent developments suggest, neural networks, which act as function estimators allow enhance reconstruction have potentail replace  long encoding process to a quicker via using transfer learning to unify reconstruction process between different modalities. These report demonstrate traditional fourier based reconstruction appraoches can be avoided and the neural networks are generic i.e. applicatable to other domains (CT, PET) etc. 
+To reconstruct a "clean" image i.e. without artifacts, k-space encoding rules must be followed, which leads to slow "encoding/acqusitions" and longer scans duration. As a result a huge amount of effort has been devoted to increase efficiency data collection over the last three decades. Recent developments suggest, neural networks, which act as function estimators allow enhance reconstruction have potentail replace  long encoding process to a quicker via using transfer learning to unify reconstruction process between different modalities. These report demonstrate traditional fourier based reconstruction appraoches can be avoided and the neural networks are generic i.e. applicable to other domains (CT, PET) etc. 
 
-Neural Networks/Deep Learning also been applied classification of the medical images mainly as computer vision "problem".   
+Neural Networks/Deep Learning is also been applied classification of the medical images mainly as computer vision "problem".   
 
 The goal of this post is to develop broad range of necessary AI-technologies to develop new data acqusition and reconstructions which not only allow efficient/fast data acquisitions but also synthesis of novel contrasts to allow more "effective diagnosis" followed with automatic image intereption in an end-to-end setting, a marked differently and radical approach.  This would require moving away from the traditional approaches and representationn by adopting a more generic embedded-space representation, a following road map outlines the development statergy. 
 
@@ -14,7 +14,7 @@ The goal of this post is to develop broad range of necessary AI-technologies to 
 
 1. Develop good representation underlying objects aka. structures of organs to embedding's via employing computer vision algorithms. 
 
-2. Employ embedding distribution to isolate specific organs with effective representation so that can be employed on current hardware (e.g. MRI/PET/CT/US scanners), similar to word2vec or glove 
+2. Employ embedding distribution to isolate specific organs with effective representation, that can be employed on current hardware (e.g. MRI/PET/CT/US scanners), analogous word2vec or glove 
 
 3. Design novel contrast from the learned representations for effective diagnosis (policy learning) learning for complex probability distributions or attention modelling or baysien modelling 
 
