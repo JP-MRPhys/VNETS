@@ -142,6 +142,7 @@ def get_target_word_id(data, vocab):
     return word_id
 
 
+
 def print_shape(narray):
     [x] = np.shape(narray)
     print("X: " + str(x))
