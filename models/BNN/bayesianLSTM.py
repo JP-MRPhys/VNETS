@@ -25,7 +25,6 @@ class BayesianLSTMCell(LSTMCell):
         print("Calling Baysein LSTM" + self.layer_name)
 
         if self.w is None:
-
             print("Creating LSTM weights")
             size = inputs.get_shape()[-1].value
             self.w, self.w_mean, self.w_sd = self.variational_posterior((size+self.num_units, 4*self.num_units), self.layer_name+'_weights', self.isTraining)
@@ -60,7 +59,6 @@ class BayesianLSTMCell(LSTMCell):
             :returns: the KL loss for the for this lstms weights and bias
 
         """
-
         return self.kl_loss
 
     def compute_KL(self):
