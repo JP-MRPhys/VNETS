@@ -28,3 +28,5 @@ This git-hub repository highlight key algorithms and provides core implementatio
  #### Attention modelling e.g. Show attend and tell, model: which can generate captions for images, this would be the final layer for automatic inpretation of data, feeding back to a decision model (DDPG: Actor-Critic, Gaussian Processes), to learn new acqusition parameters based on the current observation
 
 This work is highly experimental and not validated for any clinical/diagonistic use. Trained model/software support cannot be provided.  Publication (WIP). 
+
+docker image: jehillparikh/betamlstack:v2 (for all dependency employed in this project)
