@@ -22,4 +22,4 @@ The goal of this post is to develop broad range of necessary AI-technologies to 
 
 
 
-###docker image: jehillparikh/betamlstack:v2 (for all dependency employed in this project)
+### docker image: jehillparikh/betamlstack:v2 (for all dependency employed in this project)
