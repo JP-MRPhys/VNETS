@@ -1,4 +1,4 @@
-## Towards intelligent imaging: Role of applied AI
+## Towards intelligent imaging: Role of applied AI and generative models
 
 The goal of this post is to develop broad range of necessary AI-technologies to develop new data acqusition and reconstructions which not only allow efficient/fast data acquisitions but also synthesis of novel contrasts to allow more "effective diagnosis" followed with automatic image intereption in an end-to-end setting, a marked differently and radical approach.  This would require moving away from the traditional approaches and representation by adopting a more generic embedded-space representation, a following road map outlines the development statergy. 
 
