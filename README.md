@@ -6,19 +6,19 @@ The goal of this post is to develop broad range of necessary AI-technologies to 
 
 1. Develop good representation underlying objects aka. structures of organs to embedding's via employing computer vision algorithms to develop embeddings/latent representation
  
-   Alogs: GAN, U-NET, DENSE-nets  
+   Algos: GAN, U-NET, DENSE-nets  
 
 2. Design novel contrast from the latent representations for effective diagnosis learning for complex probability distributions
    
-   Alogs: infoGAN, attention models (BERT)
+   Alogs: infoGAN, attention models (BERT-WIP)
 
 3. Combine multi-modal data with ultimate goal of better risk stratification along with other datasets (e.g. radiology report read via NLP) via automated intepretation 
   
-    Algos: Show attend and tell, (BERT)
+    Algos: Show attend and tell, (BERT-WIP)
 
 4. Develop framework for safe AI
    
-   Alogs: Baysien Networks for development of robust and safe
+   Alogs: Baysien Networks for development of robust and safe 
 
 
 
