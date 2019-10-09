@@ -11,10 +11,17 @@ The goal of this post is to develop broad range of necessary AI-technologies to 
 2. Design novel contrast from the latent representations for effective diagnosis learning for complex probability distributions
    
    Alogs: infoGAN, attention models (BERT-WIP)
+   
+   Update sub-goal: assess feasiblity of generative models plus RI 
+   
+   Important papers: 
+   1. Spiral (https://github.com/deepmind/spiral), W-GAN-GP+RL
+   2. World Models (https://worldmodels.github.io/) VAE+RNN
+   3. Non RL learning approach based on T/R imaging
 
 3. Combine multi-modal data with ultimate goal of better risk stratification along with other datasets (e.g. radiology report read via NLP) via automated intepretation 
   
-    Algos: Show attend and tell, (BERT-WIP)
+    Algos: Show attend and tell image-to-text, (BERT-based disease embeddings), Research (Knowlegde Graphs)  
 
 4. Develop framework for safe AI
    
@@ -23,3 +30,8 @@ The goal of this post is to develop broad range of necessary AI-technologies to 
 
 
 ### docker image: jehillparikh/betamlstack:v2 (for all dependency employed in this project)
+
+
+UPDATE: 01 Oct 2019
+
+There is recent literature which make 
