@@ -17,7 +17,7 @@ The goal of this post is to develop broad range of necessary AI-technologies to 
    Important papers: 
    1. Spiral (https://github.com/deepmind/spiral), W-GAN-GP+RL
    2. World Models (https://worldmodels.github.io/) VAE+RNN
-   3. Non RL learning approach based on T/R imaging
+   3. Non RL learning approach based on T/R imaging AutoSEQ (http://www.enc-conference.org/portals/0/Abstracts2019/ENC20198520.4608VER.2.pdf)
 
 3. Combine multi-modal data with ultimate goal of better risk stratification along with other datasets (e.g. radiology report read via NLP) via automated intepretation 
   
