@@ -34,4 +34,3 @@ The goal of this post is to develop broad range of necessary AI-technologies to 
 
 UPDATE: 01 Oct 2019
 
-There is recent literature which make 
