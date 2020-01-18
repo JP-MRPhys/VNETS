@@ -17,7 +17,7 @@ The goal of this post is to develop broad range of necessary AI-technologies to 
    2. World Models (https://worldmodels.github.io/) VAE+RNN
    3. Non RL learning approach based on T/R imaging AutoSEQ (http://www.enc-conference.org/portals/0/Abstracts2019/ENC20198520.4608VER.2.pdf)
 
-3. TODO: Assess knowlegde graphs, disease embeddings etc
+3. TODO: Assess knowlegde graphs, disease embeddings 
   
 4. TODO: Develop framework for safe AI
    
