@@ -9,9 +9,7 @@ The goal of this post is to develop broad range of necessary AI-technologies to 
    Algos: GAN, U-NET, DENSE-nets  
 
 2. Design novel contrast from the latent representations for effective diagnosis learning for complex probability distributions
-   
-   Alogs: infoGAN, attention models (BERT-WIP)
-   
+  
    Update sub-goal: assess feasiblity of generative models plus RI 
    
    Important papers: 
@@ -32,5 +30,5 @@ The goal of this post is to develop broad range of necessary AI-technologies to 
 ### docker image: jehillparikh/betamlstack:v2 (for all dependency employed in this project)
 
 
-UPDATE: 01 Oct 2019
+UPDATE: 01 November 2019
 
