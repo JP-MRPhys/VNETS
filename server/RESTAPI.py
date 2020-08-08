@@ -1,3 +1,5 @@
+#Template for the rest API server
+
 import logging
 import os
 import sys
