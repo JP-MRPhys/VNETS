@@ -54,40 +54,6 @@ def create_u_net_small(input, num_classes, keep_prob):
 
     print("Completed creating U-NET (small) ")
 
-    print("Input shape:")
-    print_shape(input)
-
-    print("Down-sampling")
-    print_shape(conv1_1)
-    print_shape(conv1_2)
-    print_shape(conv2_1)
-    print_shape(conv2_2)
-    print_shape(conv3_1)
-    print_shape(conv3_2)
-
-    print("Upsampling")
-    print_shape(up_7)
-    print_shape(concat_7)
-    print_shape(conv7_1)
-    print_shape(conv7_2)
-
-    print_shape(up_8)
-    print_shape(concat_8)
-    print_shape(conv8_1)
-    print_shape(conv8_2)
-
-    print("final output")
-
-    print("Upsampling")
-    # print_shape(conv6_1)
-    print_shape(conv8_1)
-    # print_shape(conv9_1)
-
-    print("Upsampling")
-    # print_shape(concat_6)
-    print_shape(concat_7)
-    print_shape(concat_8)
-    # print_shape(concat_9)
 
     ##with tf.variable_scope('g_logits'):
     ##    logits=tf.nn.softmax(conv_10, name='g_output')  # get logits here
