@@ -7,7 +7,7 @@ scikit_image==0.14.0
 pandas==0.22.0
 tensorflow_probability==0.6.0
 spacy==2.0.12
-requests==2.19.1
+requests==2.31.0
 tensorflow==1.13.1
 Keras==2.2.2
 nltk==3.2.5
